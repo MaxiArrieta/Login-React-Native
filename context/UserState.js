@@ -1,16 +1,10 @@
 import React, { useState } from 'react';
 import UserContext from './UserContext';
 import clienteAxios from '../config/axios';
-//import { useNavigation } from "@react-navigation/native";
 
 const UserState = (props) => {
-   /* const initialState = {
-        usuario: null,
-        autenticado: null,
-        token: null
-    }*/
-    const [usuario, setUsuario] = useState({})
-      //const navigation = useNavigation();
+
+    const [usuario, setUsuario] = useState({});
 
     const iniciarSesion = async (datos) => {
         try {

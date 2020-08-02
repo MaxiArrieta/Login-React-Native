@@ -1,5 +1,4 @@
 import 'react-native-gesture-handler';
-//import { StatusBar } from 'expo-status-bar';
 //Importes necesarios para usar native base
 import React, { useEffect, useState } from 'react';
 import * as Font from "expo-font";

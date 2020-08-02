@@ -9,10 +9,8 @@ import UserContext from '../context/UserContext'
 //Importamos useNavigation para cerrar sesion
 import { useNavigation } from "@react-navigation/native";
 
-
 const Home = () => {
-
-      const navigation = useNavigation();
+    const navigation = useNavigation();
 
     //useContext
     const userContext = useContext(UserContext);
